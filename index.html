@@ -1,1 +1,145 @@
-<body>work!</body>
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - type</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="timerWrapper">
+  <div id="timer"></div>
+</div>
+<div id="centerContent" class="hidden">
+
+  <div id="middle">
+    <div id="top">
+      <div class="logo">
+        <div class="top">monkey-see</div>
+        <div class="bottom">monkey-type</sup></div>
+      </div>
+      <div id="menu">
+        <div class="button">
+          <div class="icon">
+            <i class="fas fa-fw fa-keyboard"></i>
+          </div>
+          <div class="text">
+            Test
+          </div>
+        </div>
+        <div class="button">
+          <div class="icon">
+            <i class="fas fa-fw fa-info"></i>
+          </div>
+          <div class="text">
+            About
+          </div>
+        </div>
+        <div class="button">
+          <div class="icon">
+            <i class="fas fa-fw fa-cog"></i>
+          </div>
+          <div class="text">
+            Settings
+          </div>
+        </div>
+        <div class="button">
+          <div class="icon">
+            <i class="fas fa-fw fa-user"></i>
+          </div>
+          <div class="text">
+            Login
+          </div>
+        </div>
+      </div>
+
+      <div class="result hidden">
+        <div class="group wpm">
+          <div class="title">wpm</div>
+          <div class="val">100</div>
+        </div>
+        <div class="group key">
+          <div class="title">key</div>
+          <div class="val">100/1</div>
+        </div>
+        <div class="group acc">
+          <div class="title">acc</div>
+          <div class="val">95%</div>
+        </div>
+      </div>
+      <div class="config">
+        <div class="group punctuationMode">
+          <!--           <div class="title">time</div> -->
+          <div class="buttons">
+            <div class="button toggleButton active">punctuation</div>
+          </div>
+        </div>
+        <div class="group mode">
+          <!--           <div class="title">mode</div> -->
+          <div class="buttons">
+            <div class="button">time</div>
+            <div class="button active">words</div>
+            <div class="button">custom</div>
+          </div>
+        </div>
+        <div class="group wordCount">
+          <!--           <div class="title">words</div> -->
+          <div class="buttons">
+            <div class="button">10</div>
+            <div class="button">25</div>
+            <div class="button active">50</div>
+            <div class="button">100</div>
+            <div class="button">200</div>
+          </div>
+        </div>
+        <div class="group time hidden">
+          <!--           <div class="title">time</div> -->
+          <div class="buttons">
+            <div class="button">15</div>
+            <div class="button active">30</div>
+            <div class="button">60</div>
+            <div class="button">120</div>
+          </div>
+        </div>
+        <div class="group customText hidden">
+          <!--           <div class="title">time</div> -->
+          <div class="buttons">
+            <div class="button">change</div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+    <div id="caret" class="hidden"></div>
+    <div id="words" class=""></div>
+    <div id="result" class="hidden">
+      <div class="groups">
+        <div class="group wpm">
+          <div class="title">wpm</div>
+          <div class="val">90</div>
+        </div>
+        <div class="group acc">
+          <div class="title">acc</div>
+          <div class="val">95%</div>
+        </div>
+        <div class="group key">
+          <div class="title">key</div>
+          <div class="val">(100|1) 101</div>
+        </div>
+      </div>
+    </div>
+    <div id="tip">press <key>tab</key> to restart</div>
+    <!--     <div id="tip">press <key>tab</key> to restart</div> -->
+    <div id="liveWpm" class="hidden">-</div>
+
+  </div>
+  <!-- <div id="bottom">options</div> -->
+
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
